@@ -1,0 +1,32 @@
+/*!
+  TTF Web Font Generator, v1.0.1
+  Created by Terence Lim
+  https://twitter.com/terencelmw
+  MIT License: https://github.com/terencelim/
+*/
+
+@font-face {
+  font-family: "WEBFont";
+  src: url("../fonts/[INSERT_WEBFONT_NAME].eot?v=1.0.1");
+  src: url("../fonts/[INSERT_WEBFONT_NAME].eot?v=1.0.1#iefix") format("embedded-opentype"),
+       url("../fonts/[INSERT_WEBFONT_NAME].ttf?v=1.0.1") format("truetype"),
+       url("../fonts/[INSERT_WEBFONT_NAME].woff?v=1.0.1") format("woff"),
+       url("../fonts/[INSERT_WEBFONT_NAME].woff2?v=1.0.1") format("woff2"),
+       url("../fonts/[INSERT_WEBFONT_NAME].svg?v=1.0.1#WEBFont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.CSS_ELEMENT {
+  display: inline-block;
+  font-family: "WEBFont";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-rendering: auto;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
