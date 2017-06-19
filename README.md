@@ -1,1 +1,1 @@
-## Welcome to O'Khana
+## Welcome to OK
